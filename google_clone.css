@@ -1,0 +1,153 @@
+/* Google Clone exercise, CSS */
+
+body {
+	font-family: arial, sans-serif;
+}
+
+/* ----Header---- */
+
+#headerUserText {
+	float: right;
+	font-size: 13px;
+	margin: 15px 8px 0px 8px;
+	color: rgb(115, 115, 115);
+}
+
+.headerText {
+	float: right;
+	font-size: 13px;
+	margin: 15px 8px 0px 8px;
+}
+
+header div a:link, header div a:visited {
+	color: rgb(64, 64, 64);
+	text-decoration: none;
+}
+
+header div a:active, header div a:hover {
+	color: rgb(64, 64, 64);
+	text-decoration: underline;
+}
+
+.headerIcon {
+	float: right;
+	opacity: .55;
+	margin: 15px 8px 0px 8px;
+	width: 30px;
+	height: 30px;
+}
+
+.headerIcon:hover {
+	opacity: 1.0;
+}
+
+#headerUserPhoto {
+	float: right;
+	margin: 6px 15px 0px 6px;
+}
+
+/* ----Article---- */
+
+#logo {
+	width: 22%;
+	margin: auto;
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 170px;
+    left: 20px;
+}
+
+#searchBox {
+	border: 1px solid rgb(217, 217, 217);
+	width: 543px;
+	height: 38px;
+	margin: auto;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	bottom: 0px;
+	left: 10px;
+}
+
+#searchBox:hover {
+	border: 1px solid rgb(169, 169, 169);
+}
+
+#microphone {
+	float: right;
+	margin-top: 7px;
+	margin-right: 5px;
+}
+
+.button {
+	font-size: 13px;
+	font-weight: bold;
+	height: 36px;
+	color: rgb(117, 117, 117);
+	background-color: rgb(242, 242, 242);
+	text-align: center;
+	border-radius: 2px;
+	margin: auto;
+	position: absolute;
+	line-height: 35px;
+}
+
+.button:hover {
+	border: 1px solid rgb(169, 169, 169);
+	color: rgb(64, 64, 64);
+}
+
+#googleSearch {
+	width: 150px;
+	top: 400px;
+	left: 485px;
+	margin-right: 1px;
+}
+
+#lucky {
+	width: 150px;
+	top: 400px;
+	left: 650px;
+	margin-left: 1px;
+}
+
+/* ----Footer---- */
+
+footer {
+	font-size: 13px;
+	background-color: rgb(242, 242, 242);
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 0;  
+    left: 0;  
+    right: 0; 
+	line-height: 40px;
+	border: 1px solid rgb(228, 228, 228);
+}
+
+footer div span a:link, footer div span a:visited {
+	color: rgb(102, 102, 102);
+	text-decoration: none;
+}
+
+footer div span a:active, footer div span a:hover {
+	color: rgb(102, 102, 102);
+	text-decoration: underline;
+}
+
+#leftTextFooter {
+	float: left;
+	margin-left: 30px;
+	color: red;
+}
+
+#rightTextFooter {
+	float: right;
+	color: red;
+}
+
+div span a {
+	margin-right: 30px;
+}
